@@ -1,0 +1,3447 @@
+@charset "UTF-8";
+/* CSS Document */
+
+BODY {
+	background-color:#fff;
+	margin:0 0 0 0;
+}
+.maincontainer {
+}
+.maincontainerinterno {
+	background-image:url(../images/landing_mainbg.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+.containerlanding {
+	width:980px;
+	margin:0 auto 0 auto;
+	background-image:url(../images/landing_mainbg.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+.containerinterno {
+	width:980px;
+	margin:0 auto 0 auto;
+}
+.headerlanding {
+	width:100%;
+	height:40px;
+	padding-top:3px;
+}
+.mainlogo {
+	width:47px;
+	height:40px;
+	background-image:url(../images/maingsklogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:450px;
+}
+.mainlogo a{
+	width:47px;
+	height:40px;
+	background-image:url(../images/maingsklogo.png);
+	float:left;
+}
+.mainlogo a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.mainloginbox {
+	width:325px;
+	height:30px;
+	background-color:#f36921;
+	float:left;
+	margin-left:155px;
+	padding-top:3px;
+	padding-bottom:0px;
+	border-radius:5px;
+}
+.mainloginboxinterno {
+	width:400px;
+	height:33px;
+	background-color:#f36921;
+	float:left;
+	margin-left:525px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:0px;
+	margin-top:0px;
+}
+.mainloginboxinternologueado {
+	width:400px;
+	height:33px;
+	background-color:#f36921;
+	float:left;
+	margin-left:525px;
+	padding-top:3px;
+	padding-bottom:5px;
+	border-radius:0px;
+	margin-top:0px;
+}
+.mainloginboxinternologueadouno {
+	width:97%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:11px;
+	margin-left:10px;
+	text-transform:uppercase;
+}
+.mainloginboxinternologueadouno a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.mainloginboxinternologueadouno a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#a04301;
+	font-size:11px;
+	text-transform:uppercase;
+}
+.seleccionpais {
+	width:190px;
+	height:20px;
+	float:left;
+	margin-left:10px;
+}
+.mainloginboxuno {
+	width:100px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	float:left;
+	margin-left:10px;
+	margin-top:3px;
+	padding:2px;
+}
+.headline {
+	width:970px;
+	height:175px;
+	padding-top:65px;
+}
+.headlineinterno {
+	width:970px;
+	height:150px;
+	padding:5px;
+	background-image:url(../images/headinginrterno.png);
+	background-repeat:no-repeat;
+	margin-bottom:10px;
+}
+.bannerslider {
+	width:980px;
+	height:375px;
+	background-color:#fff;
+}
+.bannersliderpaciente {
+	width:480px;
+	height:270px;
+	background-color:#fff;
+	float:left;
+	margin-right:1px;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+.homeinfocontainer {
+	width:980px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.homeinfocontainerinterno {
+	width:980px;
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#FFFFFF;
+}
+.homebloqueuno {
+	width:475px;
+	height:160px;
+	background-image:url(../images/pacientesbloquebg.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:0px;
+	margin-right:12px;
+	margin-bottom:5px;
+	border:#d0cece 1px solid;
+	padding-top:140px;
+}
+.homebloqueunotitulo {
+	width:97%;
+	height:40px;
+	background-color:#FFF;
+	margin-bottom:20px;
+	color:#f87b42;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	padding-left:15px;
+	padding-top:15px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.6);
+}
+.homebloquedostitulo {
+	width:97%;
+	height:40px;
+	background-color:#FFF;
+	margin-bottom:20px;
+	color:#00b6c9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	padding-left:15px;
+	padding-top:15px;
+	font-weight:bold;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.6);
+}
+.homebloquetrestitulo {
+	width:97%;
+	height:40px;
+	background-color:#FFF;
+	margin-bottom:20px;
+	color:#df321b;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	padding-left:15px;
+	padding-top:15px;
+	font-weight:bold;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.6);
+}
+.homebloqueunocontenidodos {
+	width:100%;
+	padding-left:1px;
+	padding-top:5px;
+	color:#636262;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-bottom:5px;
+}
+.homebloquedos {
+	width:480px;
+	height:305px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+.homebloquedosinterno {
+	width:470px;
+	height:300px;
+	float:left;
+	margin-left:8px;
+	margin-right:0px;
+	margin-top:10px;
+}
+.homebanneruno {
+	width:960px;
+	/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, left top, right top, from(#1178b9), to(#1791dd));
+	/* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(left, #1178b9, #1791dd);
+	/* Firefox 3.6+ */ background: -moz-linear-gradient(left, #1178b9, #1791dd);
+	/* IE 10 */ background: -ms-linear-gradient(left, #1178b9, #1791dd);
+	/* Opera 11.10+ */ background: -o-linear-gradient(left, #1178b9, #1791dd);
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+}
+.homebannerrojo {
+	width:960px;
+	/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, left top, right top, from(#ee3226), to(#fbd906));
+	/* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(left, #ee3226, #fbd906);
+	/* Firefox 3.6+ */ background: -moz-linear-gradient(left, #ee3226, #fbd906);
+	/* IE 10 */ background: -ms-linear-gradient(left, #ee3226, #fbd906);
+	/* Opera 11.10+ */ background: -o-linear-gradient(left, #ee3226, #fbd906);
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+}
+.bannerinternouno {
+	width:980px;
+	height:260px;
+	background-color:#fff;
+	float:left;
+}
+.bloquegris {
+	width:100%;
+	background-color:#999;
+	float:left;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+.bloquegristextouno {
+	width:100%;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:27px;
+	font-weight:bold;
+	color:#f4f4f2;
+	text-align:center;
+	font-style:italic;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.homebloquetres {
+	width:475px;
+	height:205px;
+	background-image:url(../images/misaludbloquebg.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:0px;
+	margin-right:10px;
+	border:#d0cece 1px solid;
+	padding-top:135px;
+	box-shadow: 3px 3px 3px #d1d1d1;
+	display:none;
+}
+.homebloquecuatro {
+	width:475px;
+	height:205px;
+	background-image:url(../images/institucionalbloquebg.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	border:#d0cece 1px solid;
+	padding-top:135px;
+	box-shadow: 3px 3px 3px #d1d1d1;
+	display:none;
+}
+.homebloquecinco {
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:6px;
+	margin-top:10px;
+	border:#d0cece 1px solid;
+	background-image:url(../images/pharmaciesbloquebg.jpg);
+	background-repeat:no-repeat;
+	padding-top:90px;
+}
+.homebloquecincotitulo {
+	width:96%;
+	height:30px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	color:#62bb46;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	padding-left:15px;
+	padding-top:5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.7);
+}
+.homebloqueseistitulo {
+	width:96%;
+	height:30px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	color:#007bc3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	padding-left:15px;
+	padding-top:5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.7);
+}
+.homebloquesietetitulo {
+	width:96%;
+	height:30px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	color:#f87b42;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	padding-left:15px;
+	padding-top:5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.7);
+}
+.homebloqueunocontenido {
+	width:96%;
+	padding-left:15px;
+	padding-top:3px;
+	color:#747474;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	margin-bottom:0px;
+	text-align:center;
+	font-style:italic;
+	padding-bottom:3px;
+}
+.homebloquedistribuidorescontenido {
+	width:96%;
+	padding-left:15px;
+	padding-top:3px;
+	color:#636262;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	margin-bottom:0px;
+	text-align:center;
+	font-style:italic;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.homebloqueunocontenidomedicos {
+	width:96%;
+	padding-left:15px;
+	padding-top:3px;
+	color:#636262;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	margin-bottom:0px;
+	text-align:center;
+	font-style:italic;
+	padding-bottom:25px;
+	padding-top:25px;
+}
+.homebloqueseis {
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:6px;
+	margin-top:10px;
+	border:#d0cece 1px solid;
+	padding-top:90px;
+	background-image:url(../images/distribuidoressbloquebg.jpg);
+	background-repeat:no-repeat;
+}
+.homebloquesiete {
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:6px;
+	margin-top:10px;
+	border:#d0cece 1px solid;
+	padding-top:90px;
+	background-image:url(../images/campanasbloquebg.jpg);
+	background-repeat:no-repeat;
+}
+.titulointernonaranja {
+	width:96%;
+	height:30px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	color:#F60;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px;
+	font-weight:bold;
+	padding-left:15px;
+	padding-top:5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.7);
+}
+.footer {
+	width:100%;
+	float:left;
+	padding-top:10px;
+	background-color:#282828;
+	/* Safari 4-5, Chrome 1-9  background: -webkit-gradient(linear, left top, right top, from(#1178b9), to(#1791dd));*/
+	/* Safari 5.1, Chrome 10+ background: -webkit-linear-gradient(left, #1178b9, #1791dd);*/ 
+	/* Firefox 3.6+  background: -moz-linear-gradient(left, #1178b9, #1791dd);*/
+	/* IE 10  background: -ms-linear-gradient(left, #1178b9, #1791dd);*/
+	/* Opera 11.10+  background: -o-linear-gradient(left, #1178b9, #1791dd);*/
+}
+.footerinterno {
+	width:100%;
+	float:left;
+	padding-top:10px;
+	background-color:#282828;
+	padding-top:55px;
+	/* Safari 4-5, Chrome 1-9  background: -webkit-gradient(linear, left top, right top, from(#1178b9), to(#1791dd));*/
+	/* Safari 5.1, Chrome 10+ background: -webkit-linear-gradient(left, #1178b9, #1791dd);*/ 
+	/* Firefox 3.6+  background: -moz-linear-gradient(left, #1178b9, #1791dd);*/
+	/* IE 10  background: -ms-linear-gradient(left, #1178b9, #1791dd);*/
+	/* Opera 11.10+  background: -o-linear-gradient(left, #1178b9, #1791dd);*/
+}
+.footerinfo {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ec6608;
+	font-weight:bold;
+}
+.footerinfo a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ec6608;
+	font-weight:bold;
+	text-decoration:none;
+}
+.footerinfo a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#494848;
+	font-weight:bold;
+	text-decoration:none;
+}
+.footerinfobloque {
+	width:185px;
+	height:160px;
+	float:left;
+	margin-right:6px;
+	margin-bottom:10px;
+}
+.footerinfobloque a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#9b9a9a;
+	font-weight:bold;
+	text-decoration:none;
+}
+.footerinfobloque a:hover {
+	color:#fff;
+}
+.goglobalcontainer {
+	width:100%;
+	background-color:#000;
+	margin-top:10px;
+	float:left;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.goglobal {
+	width:980px;
+	height:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+}
+.canjeslider {
+	width:965px;
+	border:1px solid #bdbdbd;
+	background-color:#fff;
+	margin-bottom:10px;
+	padding:5px;
+	float:left;
+}
+.canjesliderizquierda {
+	width:815px;
+	height:325px;
+	background-color:#fff;
+	margin-right:8px;
+	float:left;
+}
+.canjesliderderecha {
+	width:127px;
+	height:325px;
+	background-color:#fff;
+	float:left;
+}
+.itemderecha {
+	width:125px;
+	height:60px;
+	border:1px solid #bdbdbd;
+	margin-bottom:4px;
+}
+.homebloquecincointerno {
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:0px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:#d0cece 1px solid;
+	background-image:url(../images/pharmaciesbloquebg.jpg);
+	background-repeat:no-repeat;
+	padding-top:90px;
+	box-shadow: 3px 3px 3px #d1d1d1;
+}
+.homebloqueseisinterno {
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:4px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:#d0cece 1px solid;
+	padding-top:90px;
+	background-image:url(../images/distribuidoressbloquebg.jpg);
+	background-repeat:no-repeat;
+	box-shadow: 3px 3px 3px #d1d1d1;
+}
+.homebloquesieteinterno {
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:4px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:#d0cece 1px solid;
+	padding-top:90px;
+	background-image:url(../images/distribuidoressbloquebg.jpg);
+	background-repeat:no-repeat;
+	box-shadow: 3px 3px 3px #d1d1d1;
+}
+.pacienteslogin {
+	width:100%;
+	height:35px;
+	float:left;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.pacientesloginleft {
+	width:85px;
+	height:35px;
+	float:left;
+	margin-right:5px;
+}
+.publicogeneral {
+	width:100%;
+	height:35px;
+	float:left;
+	margin-bottom:5px;
+}
+
+/* FORMS */
+
+.listmenupais {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#ff4f01;
+	color:#fff;
+	border:1px solid #ffba01;
+}
+.listmenupaisfarmacias {
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px;
+	background-color:#f06500;
+	color:#fff;
+	border:1px solid #ffba01;
+	text-transform:uppercase;
+	padding:3px;
+}
+
+.clear {
+	clear:both;
+}
+
+/* TEMPLATE */
+
+.mainlogointerno {
+	width:47px;
+	height:40px;
+	background-image:url(../images/maingsklogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:3px;
+}
+.mainlogointerno a{
+	width:47px;
+	height:40px;
+	background-image:url(../images/maingsklogo.png);
+	float:left;
+}
+.mainlogointerno a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.mainloginboxunotemplate {
+	width:145px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	float:left;
+	margin-left:10px;
+	padding:1px;
+}
+.mainloginboxunotemplate a {
+	width:145px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	float:left;
+	text-decoration:none;
+}
+.mainloginboxunotemplate a:hover {
+	width:145px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#a04301;
+	float:left;
+}
+.ingresousuario {
+	width:225px;
+	height:25px;
+	float:left;
+	margin-left:10px;
+}
+.ingresousuariobox {
+	width:70px;
+	float:left;
+	margin-right:5px;
+}
+.cajaingresousuario {
+	width:65px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#ff4f01;
+	color:#fff;
+	border:1px solid #ffba01;
+	padding:2px;
+}
+.botoningresousuario {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#fff;
+	border:1px solid #ffaa30;
+	padding:1px;
+	text-shadow:1px 1px #502f01;
+	padding-left:3px;
+	padding-right:3px;
+	background-color:#c73d02;
+}
+.botoninscripcion {
+	background:#ff6b01;
+	border:#C30 1px solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bold;
+	color:#fff;
+	padding:5px;
+}
+.ingresousuariohome {
+	width:225px;
+	height:25px;
+	float:left;
+	margin-left:0px;
+	margin-top:5px;
+}
+.ingresousuarioboxhome {
+	width:70px;
+	float:left;
+	margin-right:5px;
+}
+.cajaingresousuariohome {
+	width:65px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	background-color:#ff4f01;
+	color:#fff;
+	border:1px solid #ffba01;
+	padding:3px;
+}
+.botoningresousuariohome {
+	/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, left top, right top, from(#f15c2f), to(#f89529));
+	/* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(bottom, #f15c2f, #f89529);
+	/* Firefox 3.6+ */ background: -moz-linear-gradient(bottom, #f15c2f, #f89529);
+	/* IE 10 */ background: -ms-linear-gradient(bottom, #f15c2f, #f89529);
+	/* Opera 11.10+ */ background: -o-linear-gradient(bottom, #f15c2f, #f89529);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#fff;
+	border:1px solid #ffaa30;
+	padding:1px;
+	text-shadow: 1px 1px #502f01;
+}
+.menucontainer {
+	width:980px;
+	height:80px;
+	background-color:#f36633;
+	z-index:99;
+	position:relative;
+}
+.internoinfocontainer {
+	width:980px;
+	background-color:#fff;
+}
+.titularseccion {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:27px;
+	text-align:center;
+	color:#ff6b01;
+	padding-top:5px;
+	padding-bottom:5px;
+	float:left;
+	margin-bottom:10px;
+	margin-top:10px;
+	text-transform:uppercase;
+}
+.titularseccioncanjes {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:37px;
+	text-align:center;
+	color:#ff6b01;
+	padding-top:5px;
+	padding-bottom:5px;
+	float:left;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.subtitularseccion {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	text-align:left;
+	color:#ff6b01;
+	padding-top:10px;
+	padding-bottom:10px;
+	float:left;
+	margin-bottom:15px;
+}
+.contenidotexto {
+	width: 98%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  color: #747474;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 3px;
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+
+}
+.contenidotexto a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ff6b02;
+	text-decoration:none;
+}
+.contenidotexto a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#636262;
+}
+.contenidotexto li{
+	margin-left:15px;
+}
+.bloquenosotros {
+	width:480px;
+	padding:5px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:1px;
+	background-color:#fff;
+}
+.bloquenosotros li{
+	margin-left:10px;
+}
+.bloquevalores {
+	width:300px;
+	padding:5px;
+	float:left;
+	margin-left:100px;
+	margin-bottom:10px;
+	margin-top:1px;
+	background-color:#fff;
+}
+.bloquevalores li{
+	margin-left:10px;
+}
+.bloquenosotrosdos {
+	width:315px;
+	padding:3px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:10px;
+	margin-top:1px;
+}
+.bloquenosotrostitulo {
+	width:100%;
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#1f88ca;
+}
+.bloquenosotroscontenido {
+	width:100%;
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#636262;
+	text-align:justify;
+}
+.bloquenosotroscontenido a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ff6b01;
+	text-decoration:none;
+}
+.bloquenosotroscontenido a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-decoration:underline;
+}
+.bloquefoto {
+	width:310px;
+	height:155px;
+	float:left;
+	margin-top:10px;
+	border-radius:10px;
+}
+.bloquefoto img {
+	width:100%;
+	height:100%;
+}
+.bloquefotodos {
+	width:960px;
+	height:245px;
+	float:left;
+	margin-top:10px;
+	border-radius:10px;
+}
+.bloquefotodos img {
+	width:100%;
+	height:100%;
+}
+.noticias {
+	width:100%;
+	padding:3px;
+	float:left;
+}
+.noticiasmicrositio {
+	width:100%;
+	float:left;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+.noticiasitem {
+	width:310px;
+	height:235px;
+	float:left;
+	margin-right:10px;
+	border-bottom:#c9c9c9 solid 1px;
+}
+.noticiastitulo {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#747474;
+	margin-bottom:10px;
+}
+.noticiascontenido {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#747474;
+	text-align:justify;
+	margin-bottom:10px;
+}
+.sintomasbox {
+	width:100%;
+	padding:3px;
+	float:left;
+}
+.sintomasboxitem {
+	width:310px;
+	float:left;
+	margin-right:5px;
+	margin-left:5px;
+	border-bottom:#c9c9c9 solid 1px;
+}
+.sintomasboxtitulo {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#504f4f;
+	margin-bottom:10px;
+}
+.sintomasboxcontenido {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#504f4f;
+	text-align:justify;
+	margin-bottom:10px;
+}
+.fotosintoma {
+	width:308px;
+	height:110px;
+	float:left;
+	margin-bottom:5px;
+}
+.seemore {
+	width:85px;
+	height:22px;
+	background-color:#797878;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:22px;
+	display:block;
+	border-radius:5px;
+	float:left;
+}
+.seemore a{
+	width:85px;
+	height:22px;
+	background-color:#797878;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:22px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+	float:left;
+}
+.seemore a:hover{
+	background-color:#ff6b01;
+	line-height:22px;
+	display:block;
+	border-radius:5px;
+	float:left;
+}
+.seemorecanjes {
+	width:85px;
+	height:25px;
+	background-color:#c32713;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemorecanjes a{
+	width:85px;
+	height:25px;
+	background-color:#c32713;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemorecanjes a:hover{
+	background-color:#ffa146;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemorepacientes {
+	width:85px;
+	height:25px;
+	background-color:#f26b31;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+	margin-left:10px;
+}
+.seemorepacientes a{
+	width:85px;
+	height:25px;
+	background-color:#f26b31;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemorepacientes a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemoremedicos {
+	width:85px;
+	height:25px;
+	background-color:#00b6c8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+	margin-left:10px;
+}
+.seemoremedicos a{
+	width:85px;
+	height:25px;
+	background-color:#00b6c8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemoremedicos a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemoreinstitucional {
+	width:85px;
+	height:25px;
+	background-color:#ef402a;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+	margin-left:10px;
+}
+.seemoreinstitucional a{
+	width:85px;
+	height:25px;
+	background-color:#ef402a;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemoreinstitucional a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemoredistribuidores {
+	width:85px;
+	height:25px;
+	background-color:#0088cf;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+	margin-left:10px;
+}
+.seemoredistribuidores a{
+	width:85px;
+	height:25px;
+	background-color:#0088cf;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemoredistribuidores a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemorecampanas {
+	width:85px;
+	height:25px;
+	background-color:#f26822;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+	margin-left:10px;
+	margin-top:60px;
+}
+.seemorecampanas a{
+	width:85px;
+	height:25px;
+	background-color:#f26822;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemorecampanas a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemorefarmacias {
+	width:85px;
+	height:25px;
+	background-color:#0088cf;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+	margin-left:10px;
+}
+.seemorefarmacias a{
+	width:85px;
+	height:25px;
+	background-color:#60bb46;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemorefarmacias a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.idiomasfooter {
+	width:185px;
+	height:65px;
+	float:left;
+}
+.redessociales {
+	width:100px;
+	height:70px;
+	float:left;
+	margin-left:625px;
+}
+.redicono {
+	width:32px;
+	height:32px;
+	float:left;
+	margin-right:10px;
+}
+.micuenta {
+	width:460px;
+	height:270px;
+	margin-left:10px;
+	float:left;
+	margin-top:10px;
+}
+.fotoperfil {
+	width:175px;
+	height:175px;
+	border:#CCC 1px solid;
+	background-color:#fff;
+	float:left;
+	margin-top:5px;
+}
+.infoperfil {
+	width:270px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#595959;
+	margin-left:10px;
+	margin-top:5px;
+}
+.articuloscanje {
+	width:470px;
+	height:500px;
+	background-color:#fff;
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+}
+.misalud {
+	width:470px;
+	height:500px;
+	background-color:#fff;
+	float:left;
+	margin-top:10px;
+}
+.articulocanjeitem {
+	width:100%;
+	height:65px;
+	margin-top:15px;
+	margin-bottom:15px;
+	float:left;
+	background-color:#fff;
+}
+.fotoarticulocanje {
+	width:125px;
+	height:60px;
+	border:#fe6b01 1px solid;
+	float:left;
+}
+.descripicionarticulocanje {
+	width:330px;
+	height:32px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	margin-left:10px;
+}
+.seemorecanjearticulos {
+	width:85px;
+	height:25px;
+	background-color:#797878;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+.seemorecanjearticulos a{
+	width:85px;
+	height:25px;
+	background-color:#797878;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+}
+.seemorecanjearticulos a:hover{
+	background-color:#ff6b01;
+	line-height:25px;
+	display:block;
+}
+.bloquetextomisalud {
+	width:100%;
+	margin-top:15px;
+	margin-bottom:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	float:left;
+	text-align:justify;
+}
+.misaluditem {
+	width:100%;
+	height:80px;
+	float:left;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+.misaluditemfoto {
+	width:110px;
+	height:75px;
+	background-color:#fff;
+	float:left;
+	border:#F60 solid 1px;
+}
+.descripicionarticulomisalud {
+	width:345px;
+	height:47px;
+	float:left;
+	margin-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+}
+.reglamentoleft {
+	width:470px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+}
+.reglamentoright {
+	width:470px;
+	float:left;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+}
+.textonaranja {
+	font-weight:bold;
+	color:#F60;
+}
+.bloquecanjeleft {
+	width:480px;
+	float:left;
+	margin-right:10px;
+}
+.bloquecanjeleft li{
+	margin-left:25px;
+}
+.bloquecanjeright {
+	width:480px;
+	float:left;
+}
+.bloquecanjeright li{
+	margin-left:25px;
+}
+.bloquecanjeleftdos {
+	width:490px;
+	float:left;
+	margin-right:5px;
+	padding:1px;
+}
+.bloquecanjeleftdos img{
+	width:100%;
+	height:100%;
+}
+.bloquecanjerightdos {
+	width:475px;
+	float:left;
+	padding:1px;
+}
+.bloquecanjerightdos img{
+	width:100%;
+	height:100%;
+}
+.bloquecanjetitular {
+	width:99%;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ff6b01;
+	padding:3px;
+	margin-bottom:5px;
+	margin-top:5px;
+	float:left;
+}
+.bloquecanjecontenido {
+	width:100%;
+	font-size:14px;
+	color:#747474;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+.bloquecanjecontenido a {
+	width:100%;
+	font-size:14px;
+	color:#ff6b01;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	text-decoration:none;
+}
+.bloquecanjecontenido a:hover {
+	width:100%;
+	font-size:14px;
+	color:#ccc;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	text-decoration:none;
+}
+.contenidonaranja {
+	font-size:15px;
+	color:#ff6b01;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.pasoscanje {
+	width:285px;
+	height:275px;
+	float:left;
+	margin-right:17px;
+	margin-left:17px;
+	margin-top:10px;
+	margin-bottom:35px;
+	background-image:url(../images/01.jpg);
+	padding:8px;
+}
+.pasoscanjedos {
+	width:285px;
+	height:275px;
+	float:left;
+	margin-right:17px;
+	margin-left:17px;
+	margin-top:10px;
+	margin-bottom:35px;
+	background-image:url(../images/02.jpg);
+	padding:8px;
+}
+.pasoscanjetres {
+	width:285px;
+	height:275px;
+	float:left;
+	margin-right:17px;
+	margin-left:17px;
+	margin-top:10px;
+	margin-bottom:35px;
+	background-image:url(../images/03.jpg);
+	padding:8px;
+}
+.pasoscanjenumero {
+	width:70px;
+	height:70px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+}
+.pasoscanjetitular {
+	width:100%;
+	float:left;
+	font-size:17px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.pasoscontenido {
+	width:100%;
+	height:110px;
+	float:left;
+	font-size:13px;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	margin-bottom:10px;
+}
+.pasoscontenido a{
+	font-size:13px;
+	color:#fcff00;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.pasoscontenido a:hover{
+	font-size:13px;
+	color:#ccc;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.mainfotoenfermedad {
+	width:962px;
+	height:252px;
+	float:left;
+	margin-top:0px;
+	background-color:#fff;
+	margin-bottom:0px;
+	border:#818181 1px solid;
+}
+.mainfotocontacto {
+	width:100%;
+	height:247px;
+	float:left;
+	margin-top:0px;
+	background-color:#fff;
+	margin-bottom:10px;
+}
+.productosbox {
+	width:100%;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.productoitem {
+	width:235px;
+	height:270px;
+	float:left;
+	margin-right:5px;
+	border-bottom:#9f9f9f solid 1px;
+}
+.productofoto {
+	width:235px;
+	height:175px;
+	float:left;
+	margin-left:auto;
+	margin-bottom:auto;
+}
+.productonombre {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#747474;
+	text-transform:uppercase;
+	float:left;
+	margin-bottom:5px;
+	margin-top:5px;
+	text-align:center;
+	font-weight:bold;
+}
+.productoinfo {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#747474;
+	float:left;
+	margin-top:5px;
+	padding:0;
+	text-align:center;
+}
+.productoinfo li {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#767575;
+	list-style:none;
+	margin-left:0px;
+}
+.franjanaranja {
+	width:980px;
+	height:120px;
+	background-color:#c9c3ba;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.itemgsk {
+	width:310px;
+	height:200px;
+	float:left;
+	margin-right:8px;
+	margin-top:8px;
+	margin-bottom:8px;
+	border-bottom:#a3a3a3 1px solid;
+}
+.titulosubseccion {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#ff6b01;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-bottom:5px;
+}
+.gskbox {
+	width:100%;
+	height:90px;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#999999;
+	font-style:italic;
+	margin-bottom:10px;
+}
+.registro {
+	width:97%;
+	margin-top:10px;
+	float:left;
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.registroleft {
+	width:350px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#747474;
+}
+.registroright {
+	width:580px;
+	float:left;
+	margin-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#747474;
+}
+.registroright a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#ff5a00;
+	text-decoration:none;
+}
+.registroright a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#747474;
+}
+.registrorightnotifiacion {
+	width:580px;
+	float:left;
+	margin-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	color:#1d88cc;
+}
+.registroformbox {
+	background-color:#F6F6F6;
+	border:#adadac 1px solid;
+	width:550px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#747474;
+	padding:3px;
+}
+.registroformboxcodigo {
+	background-color:#F6F6F6;
+	border:#adadac 1px solid;
+	width:270px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#999999;
+	padding:3px;
+	margin-right:5px;
+}
+.registroformnacimiento {
+	background-color:#F6F6F6;
+	border:#adadac 1px solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#999999;
+	padding:3px;
+	margin-right:5px;
+}
+.registroformboxdos {
+	background-color:#F6F6F6;
+	border:#adadac 1px solid;
+	width:270px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#999999;
+	padding:3px;
+}
+.textogrisdisclaimner {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+	font-style:italic;
+}
+.contenidoterminos {
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+	float:left;
+	text-align:justify;
+}
+.contenidoterminos img{
+	width:100%;
+	height:100%;
+}
+.contenidoterminosleft {
+	width:470px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+	text-align:justify;
+	margin-right:15px;
+}
+.contenidoterminosleft a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#ff6b01;
+}
+.contenidoterminosleft a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+}
+.contenidoterminosleft li{
+	margin-left:20px;
+	margin-bottom:15px;
+}
+.contenidoterminosright {
+	width:470px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+	text-align:justify;
+}
+.contenidoterminosright a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#ff6b01;
+}
+.contenidoterminosright a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+}
+.contenidoterminosright li{
+	margin-left:20px;
+	margin-bottom:15px;
+}
+.cuadropreguntasfrecuentes {
+	width:470px;
+	height:205px;
+}
+.textorojo {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#ff0101;
+	font-style:italic;
+}
+.contactoleft {
+	width:460px;
+	float:left;
+	margin-right:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+	text-align:justify;
+	border:#CCC 1px solid;
+	padding:5px;
+}
+.contactoright {
+	width:460px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+	text-align:justify;
+	border:#CCC 1px solid;
+	padding:5px;
+}
+.contactoleftContact {
+  width: 99%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #666;
+  text-align: justify;
+  border: #ff6b01 1px solid;
+  padding: 5px 5px 5px 5px;
+}
+
+.paises {
+	width:100%;
+	margin-top:5px;
+	margin-bottom:40px;
+}
+.paisleft {
+	width: 50%;
+  	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 13px;
+  	color: #666;
+  	padding: 2px 0 2px 200px;
+  	height: 10px;
+}
+.paisright {
+	width: 63%;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 5px;
+  padding: 2px;
+  text-align: -webkit-center;
+}
+.enfermedadbloqueuno {
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:10px;
+	background-color:#acacac;
+	padding-top:70px;
+}
+.enfermedadbloquedos {
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:10px;
+	background-color:#acacac;
+	padding-top:70px;
+}
+.enfermedadbloquetres {
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:10px;
+	background-color:#acacac;
+	padding-top:70px;
+}
+.enfermedadbloquecuatro {
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	background-color:#acacac;;
+	padding-top:70px;
+}
+.enfermedadestitulo  {
+	width:100%;
+	height:30px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	color:#F60;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding-left:2px;
+	padding-top:5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.7);
+}
+.contenidoenfermedades {
+	width:100%;
+	padding-top:3px;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	margin-bottom:10px;
+	text-align:center;
+	font-style:italic;
+	padding-bottom:3px;
+}
+.overviewpadecimiento {
+	width:285px;
+	height:200px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.overviewpadecimiento a{
+	width:285px;
+	height:200px;
+}
+.overviewpadecimiento a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.fondointernonuestracompania {
+	width:960px;
+	background-image:url(../images/nosotrosbg.jpg);
+	background-repeat:no-repeat;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:150px;
+}
+.pacientelogueadoleft {
+	width:150px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:10px;
+	background-color:#ccc;
+}
+.pacientelogueadoleftdos {
+	width:270px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:10px;
+	background-color:#fff;
+}
+.pacientelogueadocenter {
+	width:440px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:10px;
+	background-color:#fff;
+}
+.pacientelogueadocenterdos {
+	width:700px;
+	float:left;
+	margin-right:0px;
+	margin-bottom:10px;
+	background-color:#fff;
+}
+.pacientelogueadoright {
+	width:375px;
+	float:left;
+	margin-bottom:5px;
+	background-color:#fff;
+}
+.slidepacientelogueado {
+	width:375px;
+	background-color:#fff;
+	margin-bottom:0px;
+}
+.slidepacientelogueadodos {
+	width:270px;
+	background-color:#fff;
+	margin-bottom:0px;
+	float:left;
+	margin-top:5px;
+}
+.bannerpacientelogueado {
+	width:375px;
+	background-color:#FFF;
+}
+.estadocuenta {
+	width:475px;
+	height:250px;
+	float:left;
+}
+.tablaestadocuenta {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#4d4d4d;
+}
+.fotoprofile {
+	width:167px;
+	height:167px;
+	float:left;
+	border:1px #999 solid;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+.profileinfo {
+	width:290px;
+	height:200px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#636262;
+	font-size:13px;
+}
+.profileinfo li {
+	margin-left:10px;
+}
+.canjearticulositem {
+	width:100%;
+	margin-bottom:3px;
+	margin-top:3px;
+	float:left;
+}
+.canjearticulositemfoto {
+	width:92px;
+	height:70px;
+	float:left;
+	border:#ff6b01 solid 1px;
+	margin-right:15px;
+}
+.canjearticulositemfotoinfo {
+	width:500px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#636262;
+	font-size:12px;
+}
+.seemorearticulo {
+	width:70px;
+	height:22px;
+	background-color:#f26b31;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:22px;
+	display:block;
+	margin-top:7px;
+}
+.seemorearticulo a{
+	width:70px;
+	height:22px;
+	background-color:#f26b31;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:22px;
+	text-decoration:none;
+	display:block;
+}
+.seemorearticulo a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+}
+.pacientelogueadoarticulo {
+	width:100%;
+	float:left;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+.textopacientelogueadoright {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#636262;
+	font-size:13px;
+	float:left;
+	text-align:justify;
+	margin-bottom:15px;
+}
+.fotomisaludpacientelogueado {
+	width:114px;
+	height:85px;
+	background-color:#FFF;
+	float:left;
+	margin-right:10px;
+	border:#F60 solid 1px;
+}
+.titulomisaludpacientelogueado {
+	width:185px;
+	margin-bottom:1px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#636262;
+	font-size:12px;
+}
+.textomisaludpacientelogueado {
+	width:185px;
+	margin-bottom:5px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#636262;
+	font-size:11px;
+}
+.seemoregsk {
+	width:85px;
+	height:25px;
+	background-color:#ff6b01;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+.seemoregsk a{
+	width:85px;
+	height:25px;
+	background-color:#ff6b01;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	display:block;
+	border-radius:5px;
+}
+.seemoregsk a:hover{
+	background-color:#ccc;
+	line-height:25px;
+	display:block;
+	border-radius:5px;
+}
+
+/* FARMACIAS */
+
+.fotofarmacias {
+	width:982px;
+	height:247px;
+	background-color:#fff;
+	float:left;
+}
+.farmaciasafiliadasleft {
+	width:320px;
+	float:left;
+	margin-right:10px;
+}
+.farmaciasafiliadasright {
+	width:650px;
+	height:450px;
+	float:left;
+	background-color:#fff;
+	border:#ababab 1px solid;
+	margin-bottom:30px;
+}
+.farmaciasafiliadasleftitem {
+	width:100%;
+	float:left;
+	margin-bottom:10px;
+}
+.afiliarfarmacias {
+	width:100%;
+	padding:10px;
+	background-color:#ff6b01;
+	float:left;
+	border-radius:8px;
+}
+.afiliarfarmaciasuno {
+	width:200px;
+	float:left;
+	margin-right:10px;
+}
+.afiliarfarmaciasdos {
+	width:310px;
+	float:left;
+	margin-right:10px;
+}
+.afiliarfarmaciastres {
+	width:400px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFF;
+}
+.afiliarfarmaciasleft {
+	width:200px;
+	height:25px;
+	float:left;
+	margin-right:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	margin-bottom:10px;
+	text-align:left;
+}
+.afiliarfarmaciasright {
+	width:310px;
+	height:25px;
+	float:left;
+	margin-bottom:10px;
+}
+.cajasafiliarfarmacias {
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ff6b01;
+	background-color:#FFF;
+	border:none;
+	border-radius:10px;
+	padding:3px;
+}
+.botonregistrar {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ff6b01;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+/* MI SALUD */
+
+.misaludarticulouno {
+	width:487px;
+	height:362px;
+	float:left;
+	background-color:#fff;
+	margin-right:25px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.misaludarticulodos {
+	width:452px;
+	height:172px;
+	float:left;
+	background-color:#fff;
+	margin-right:15px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.misaludarticulotres {
+	width:452px;
+	height:172px;
+	float:left;
+	background-color:#fff;
+	margin-right:15px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.misaludarticulocuatro {
+	width:300px;
+	height:220px;
+	background-color:#fff;
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.misaludarticulocinco {
+	width:300px;
+	height:220px;
+	background-color:#fff;
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.misaludarticuloseis {
+	width:300px;
+	height:220px;
+	background-color:#fff;
+	float:left;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.misaludarticulounofoto {
+	width:485px;
+	height:245px;
+	background-color:#cbcbcb;
+}
+.misaludarticulounocajatexto {
+	width:485px;
+	height:115px;
+	background-color:#1DAABA;
+	padding:10px;
+}
+.misaludarticulounotitulo {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:17px;
+	margin-bottom:5px;
+}
+.misaludarticulounocontenido {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	margin-bottom:5px;
+}
+.misaludarticulodosfoto {
+	width:450px;
+	height:112px;
+	background-color:#ccc;
+}
+.misaludarticulodoscajatexto {
+	width:450px;
+	height:58px;
+	background-color:#54A41C;
+	padding-top:20px;
+	padding-left:15px;
+}
+.misaludarticulodostitulo {
+	width:75%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:17px;
+	margin-bottom:5px;
+	float:left;
+}
+.misaludarticulotresfoto {
+	width:450px;
+	height:112px;
+	background-color:#ccc;
+}
+.misaludarticulotrescajatexto {
+	width:450px;
+	height:58px;
+	background-color:#0065B2;
+	padding-top:20px;
+	padding-left:15px;
+}
+.misaludarticulotrestitulo {
+	width:75%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:17px;
+	margin-bottom:5px;
+	float:left;
+}
+.misaludarticulocuatrofoto {
+	width:298px;
+	height:150px;
+	background-color:#ccc;
+}
+.misaludarticulocuatrocajatexto {
+	width:100%;
+	height:68px;
+	background-color:#54A41C;
+	padding-top:20px;
+	padding-left:15px;
+}
+.misaludarticulocuatrotitulo {
+	width:65%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	margin-bottom:5px;
+	float:left;
+}
+.misaludarticulocincofoto {
+	width:298px;
+	height:150px;
+	background-color:#ccc;
+}
+.misaludarticulocincocajatexto {
+	width:100%;
+	height:68px;
+	background-color:#EB2A10;
+	padding-top:20px;
+	padding-left:15px;
+}
+.misaludarticulocincotitulo {
+	width:65%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	margin-bottom:5px;
+	float:left;
+}
+.misaludarticuloseisfoto {
+	width:298px;
+	height:150px;
+	background-color:#ccc;
+}
+.misaludarticuloseiscajatexto {
+	width:100%;
+	height:68px;
+	background-color:#BC1077;
+	padding-top:20px;
+	padding-left:15px;
+}
+.misaludarticuloseistitulo {
+	width:65%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	margin-bottom:5px;
+	float:left;
+}
+.farmaciaslanding {
+	width:980px;
+	height:460px;
+	background-image:url(../images/farmaciaslanding_bg.jpg);
+	background-repeat:no-repeat;
+	padding-top:40px;
+	background-color:#999;
+}
+.distribuidoreslanding {
+	width:980px;
+	padding-top:40px;
+	float:left;
+	margin-top:10px;
+}
+.titularseccionlanding {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#0088cf;
+	text-align:center;
+	margin-bottom:20px;
+	float:left;
+}
+.ingresoseccionesinternas {
+	width:100%;
+	background: rgba(250, 250, 250, 0.8);
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	float:left;
+}
+.contenidotextolandings {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#666;
+	text-align:center;
+	margin-bottom:15px;
+	margin-top:5px;
+}
+.botonesingresolandings {
+	width:360px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:#999 1px solid;
+	padding-top:5px;
+}
+.botoningreso {
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.usernameseccionesinternas {
+	width:350px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#666;
+	margin:0 auto 5px auto;
+}
+.usernameseccionesinternasdatos {
+	width:350px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.seccionesinternasformbox {
+	background-color:#F6F6F6;
+	border:#adadac 1px solid;
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333;
+	padding:3px;
+}
+.productoscanjesleft {
+	width:175px;
+	float:left;
+	margin-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+	margin-bottom:5px;
+	border-bottom:#CCC 1px solid;
+}
+.productoscanjesright {
+	width:270px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+	margin-bottom:5px;
+	border-bottom:#CCC 1px solid;
+}
+.titulofranquicia {
+	width:300px;
+	height:60px;
+	margin:20px 0 25px 0;
+	float:left;
+	border-left:#96c7e5 1px solid;
+}
+.titulofranquiciaabajo {
+	width:300px;
+	height:22px;
+	text-align:right;
+	margin-left:0px;
+}
+.titulofranquiciaarriba {
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#f86a04;
+	font-size:33px;
+	text-transform:uppercase;
+	text-align:right;
+}
+.franjaceleste {
+	width:980px;
+	height:1%;
+	background-color:#98c7e4;
+	float:left;
+	padding-bottom:35px;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:15px;
+}
+.menunaranja {
+	width:215px;
+	background-color:#ff6b01;
+	float:left;
+}
+.menunaranjados {
+	width:100%;
+	background-color:#ff6b01;
+	float:left;
+}
+.menunaranjaitem {
+	width:215px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-align:left;
+	text-decoration:none;
+}
+.menunaranjaitem a{
+	width:215px;
+	background-color:#ff6b01;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:#FFF 1px solid;
+	padding-left:10px;
+}
+.menunaranjaitem a:hover{
+	width:215px;
+	background-color:#ffae01;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#ff5501;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:#FFF 1px solid;
+	padding-left:10px;
+}
+.menunaranjaitemdos {
+	width:100%;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-align:left;
+	text-decoration:none;
+}
+.menunaranjaitemdos a{
+	width:100%;
+	background-color:#ff6b01;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:#FFF 1px solid;
+	padding-left:10px;
+}
+.menunaranjaitemdos a:hover{
+	width:100%;
+	background-color:#ffae01;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#ff5501;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:#FFF 1px solid;
+	padding-left:10px;
+}
+.menunaranjaitem a img{
+	width:auto;
+	height:auto;
+	margin-right:10px;
+}
+.menunaranjaitemicono {
+	width:30px;
+	height:25px;
+}
+.slideshowmicrositio {
+	width:725px;
+	height:270px;
+	float:left;
+	margin-left:10px;
+	background-color:#FFF;
+}
+.slideshowmicrositiointerno {
+	width:725px;
+	height:270px;
+	float:left;
+	background-color:#FFF;
+	margin-bottom:35px;
+}
+.micrositiomainarticle {
+	width:980px;
+	height:350px;
+	background-color:#999;
+	float:left;
+	padding-left:570px;
+	padding-top:10px;
+}
+.micrositiomainarticleinfo {
+	width:400px;
+	height:340px;
+	background-color:#b4b4b4;
+	border:#FFF 1px solid;
+	padding:20px;
+}
+.micrositiomainarticletitle {
+	width:100%;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#044770;
+	margin-bottom:20px;
+}
+.micrositiomainarticlecontent {
+	width:100%;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#044770;
+	margin-bottom:20px;
+}
+.footermicrosite {
+	width:400px;
+	height:30px;
+	margin:10px auto 10px auto;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#044770;
+	text-align:center;
+}
+.footermicrosite li{
+	margin-left:10px;
+	margin-right:10px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ff6b01;
+	float:left;
+	list-style:none;
+}
+.footermicrosite li a{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ff6b01;
+	text-decoration:none;
+}
+.footermicrosite li a:hover{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4e4d4d;
+}
+.lineagris {
+	width:100%;
+	height:1px;
+	background-color:#999;
+	margin-bottom:10px;
+	margin-top:10px;
+	float:left;
+}
+.micrositioleft {
+	width:215px;
+	float:left;
+	margin-right:10px;
+}
+.micrositioright {
+	width:735px;
+	float:left;
+}
+.titulararticulomicrositio {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ff6b01;
+	font-size:22px;
+	margin-bottom:10px;
+}
+.contenidoarticulomicrositio {
+	width:100%;
+	height:800px;
+	background-color:#036;
+	float:left;
+}
+.infoproductinscripcion {
+	width:98%;
+    height:100px; 
+    font-size:11px; 
+    font-weight:bold; 
+    text-align:justify
+}
+
+/* MICROSITIO */
+
+.micrositioarticulouno {
+	width:372px;
+	height:275px;
+	float:left;
+	background-color:#fff;
+	margin-right:18px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.micrositioarticulounofoto {
+	width:370px;
+	height:185px;
+	background-color:#cbcbcb;
+}
+.micrositioarticulounocajatexto {
+	width:370px;
+	height:88px;
+	background-color:#1DAABA;
+	padding:3px;
+}
+.micrositioarticulodos {
+	width:345px;
+	height:130px;
+	float:left;
+	background-color:#fff;
+	margin-right:0px;
+	margin-bottom:15px;
+	border:#818181 1px solid;
+}
+.micrositioarticulodosfoto {
+	width:343px;
+	height:85px;
+	background-color:#ccc;
+}
+.micrositioarticulodoscajatexto {
+	width:343px;
+	height:43px;
+	background-color:#54A41C;
+	padding-top:10px;
+	padding-left:5px;
+}
+.micrositioarticulodostitulo {
+	width:70%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	margin-bottom:5px;
+	float:left;
+}
+.micrositioarticulotres {
+	width:345px;
+	height:130px;
+	float:left;
+	background-color:#fff;
+	margin-right:0px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.micrositioarticulotrescajatexto {
+	width:343px;
+	height:43px;
+	background-color:#0065B2;
+	padding-top:10px;
+	padding-left:5px;
+}
+.micrositioarticulotrestitulo {
+	width:70%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	margin-bottom:5px;
+	float:left;
+}
+.micrositioarticulocuatro {
+	width:228px;
+	height:162px;
+	background-color:#fff;
+	float:left;
+	margin-right:22px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.micrositioarticulocinco {
+	width:228px;
+	height:162px;
+	background-color:#fff;
+	float:left;
+	margin-right:22px;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.micrositioarticulocuatrofoto {
+	width:226px;
+	height:115px;
+	background-color:#ccc;
+}
+.micrositioarticulocuatrocajatexto {
+	width:100%;
+	height:45px;
+	background-color:#54A41C;
+	padding-top:10px;
+	padding-left:5px;
+}
+.micrositioarticulocuatrotitulo {
+	width:58%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	margin-bottom:5px;
+	float:left;
+}
+.micrositioarticulocincofoto {
+	width:226px;
+	height:115px;
+	background-color:#ccc;
+}
+.micrositioarticulocincocajatexto {
+	width:100%;
+	height:45px;
+	background-color:#EB2A10;
+	padding-top:10px;
+	padding-left:5px;
+}
+.micrositioarticulocincotitulo {
+	width:58%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	margin-bottom:5px;
+	float:left;
+}
+.micrositioarticuloseis {
+	width:228px;
+	height:162px;
+	background-color:#fff;
+	float:left;
+	margin-bottom:20px;
+	border:#818181 1px solid;
+}
+.micrositioarticuloseisfoto {
+	width:226px;
+	height:115px;
+	background-color:#ccc;
+}
+.micrositioarticuloseiscajatexto {
+	width:100%;
+	height:45px;
+	background-color:#BC1077;
+	padding-top:10px;
+	padding-left:5px;
+}
+.micrositioarticuloseistitulo {
+	width:58%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	margin-bottom:5px;
+	float:left;
+}
+.farmaciasverde {
+	color:#60bb46;
+}
+
+/* ------------------------------------------------------------------------- USUARIOS ------------------------------------------------------------------------- */
+
+.categorias {
+	width:90%;
+	float:left;
+	margin-bottom:15px;
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:10px;
+	background-color:#fff;
+}
+.categoriasdos {
+	width:99%;
+	float:left;
+	margin-bottom:15px;
+	padding-left:1px;
+	padding-top:1px;
+	padding-bottom:10px;
+	background-color:#fff;
+}
+.categorias ul {
+	margin-left:20px;
+}
+.categorias li {
+	margin-left:-10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#4a4a4a;
+}
+.categorias li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#4a4a4a;
+	text-decoration:none;
+}
+.categorias li a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#ec6707;
+}
+.herramientas  {
+	width:175px;
+	background: -webkit-linear-gradient(#def7fe, #b0e9fc); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#def7fe, #b0e9fc); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#def7fe, #b0e9fc); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#def7fe, #b0e9fc); /* Standard syntax */
+	float:left;
+	border:1px solid #c3daec;
+	border-radius:5px;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+.textosazulesusuario {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#4a4a4a;
+}
+.pagetools {
+	width:22px;
+	height:66px;
+	float:left;
+	background-image:url(../images/pagetools.jpg);
+}
+.herramientasright {
+	width:115px;
+	float:left;
+	margin-left:10px;
+}
+.herramientasright ul {
+	margin-left:-15px;
+}
+.herramientasright li {
+	margin-left:-10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#00adee;
+}
+.herramientasright li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#00adee;
+	text-decoration:none;
+}
+.herramientasright li a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#06394c;
+}
+.usuarioscentertextonegro {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin-bottom:10px;
+	padding-top:10px;
+}
+.usuarioscentertextoazul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#ff6b01;
+	margin-bottom:10px;
+}
+.usuariocontenedorinfodos {
+	width:100%;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-bottom:15px;
+}
+.usuariocontenedorinfodos p{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.usuariocontenedorinfotabulado {
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+	text-align:center;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.lineaceleste {
+	width:100%;
+	height:1px;
+	background-color:#c6c6c6;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.usuariocontenedorinfo {
+	width:99%;
+	border:1px solid #ccc;
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+.graficopuntos {
+	width:99%;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#fff;
+}
+.textograficopuntos01 {
+	width:60px;
+	height:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+}
+.textograficopuntos02 {
+	width:60px;
+	height:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	margin-left:18px;
+	margin-right:5px;
+	float:left;
+}
+.textograficopuntos03 {
+	width:60px;
+	height:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	margin-left:13px;
+	margin-right:5px;
+	float:left;
+}
+.textograficopuntos04 {
+	width:60px;
+	height:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	margin-left:13px;
+	margin-right:5px;
+	float:left;
+}
+.textograficopuntos05 {
+	width:65px;
+	height:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	text-align:center;
+	margin-left:15px;
+	margin-right:5px;
+	float:left;
+}
+.medicamentoleft {
+	width:200px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	text-align:left;
+}
+.medicamentoleftdos {
+	width:20px;
+	float:left;
+	margin-right:95px;
+	margin-bottom:5px;
+}
+.medicamentoright {
+	width:200px;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	text-align:left;
+}
+.medicamentorightdos {
+	width:20px;
+	float:left;
+	margin-right:0px;
+	margin-bottom:5px;
+	text-align:right;
+}
+.bannervertical {
+	width:270px;
+	background-color:#fff;
+	float:left;
+}
+.tablacanjes {
+	width:100%;
+	padding:1px;
+}
+.textoazul {
+	color:#069;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:italic;
+}
+.bloquefarmacias {
+	width:100%;
+	padding:0px;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:none;
+}
+.farmaciastextogris {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+.farmaciastextoazul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#1288ca;
+}
+.ultimascincocompras {
+	width:100%;
+	background-color:#fff;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.ultimoscincocanjes {
+	width:100%;
+	background-color:#fff;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.balancegeneral {
+	width:100%;
+	background-color:#fff;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.ultimascincocomprasnaranja {
+	width:16.6%;
+	height:40px;
+	float:left;
+	background-color:#f26522;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.ultimoscincocanjesnaranja {
+	width:19.9%;
+	height:40px;
+	float:left;
+	background-color:#f26522;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.ultimoscincocanjesgris {
+	width:19.9%;
+	height:40px;
+	float:left;
+	background-color:#d9d5d1;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.ultimoscincocanjesblanco {
+	width:19.9%;
+	height:40px;
+	float:left;
+	background-color:#fff;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.ultimascincocomprasnaranjaCanjes{
+	width:19.9%;
+	float:left;
+	background-color:#f26522;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+    height:35px;
+}
+.ultimascincocomprasgris {
+	width:16.6%;
+	height:40px;
+	float:left;
+	background-color:#d9d5d1;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.ultimascincocomprasgrisCanjes {
+	width:19.9%;
+	float:left;
+	background-color:#d9d5d1;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+    height:35px;
+}
+.ultimascincocomprasblanco {
+	width:16.6%;
+	height:40px;
+	float:left;
+	background-color:#fff;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.balancegeneralnaranja {
+	width:16.6%;
+	height:40px;
+	float:left;
+	background-color:#f26522;
+	border-right:#FFF 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.balancegeneralblanco {
+	width:16.6%;
+	height:40px;
+	float:left;
+	background-color:#fff;
+	border-right:#FFF 1px solid;
+	border-bottom:#999 1px solid;
+	margin-bottom:1px;
+	text-align:center;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+.bloquepaisescontacto {
+	width:99%;
+	border:#F60 solid 1px;
+	float:left;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+.bloquepaisesitem {
+	width:21%;
+	height:20px;
+	float:left;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:5px;
+	margin-bottom:15px;
+	text-align:left;
+	padding:3px;
+	margin-right:2px;
+	margin-left:2px;
+	padding-left:0px;
+}
+.bloquepaisesitemuno {
+	width:21%;
+	height:20px;
+	float:left;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:5px;
+	margin-bottom:15px;
+	text-align:left;
+	padding:3px;
+	margin-right:2px;
+	margin-left:2px;
+	padding-left:0px;
+}
+
+/* ------------------------------------------------------------------------- FARMACIAS ------------------------------------------------------------------------- */
+
+
+        .iframe-normal{
+            border:none;
+            height:250px;
+            width:315px;
+			background-color:#fff;
+        }
+		.inline{
+            border:none;
+        }
+        .object{
+            border:none;
+            width:315px;
+            height:250px;
+        }
+        .object-big{
+            display:inline-block;
+            border:solid 1px red;
+            width:315px;
+            height:250px;
+        }
+		.scroll-container{
+            height:250px;
+            width:315px;
+            overflow:scroll;
+        }
+        .scroll-ios{
+            overflow:scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        .scroll-normal{
+            overflow:scroll;
+            -webkit-overflow-scrolling: auto;
+        }
+        
+		
+		.escogerpais {
+			background-color:#f87b42;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:17px;
+			color:#FFF;
+			padding:3px;
+			border:#d25a23 1px solid;
+		}
